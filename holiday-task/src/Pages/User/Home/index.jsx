@@ -12,34 +12,54 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { IconButton } from '@mui/material';
 import { favoritesContext } from '../../../Context/FavoritesContext';
 import { basketContext } from '../../../Context/BasketContext';
+import Swal from "sweetalert2"
+
 
 function Home() {
 
-  let { products} = useContext(productContext)
+  let { products } = useContext(productContext)
   let { favorites, setFavorites } = useContext(favoritesContext)
   let { basket, setBasket } = useContext(basketContext)
 
-  const navigate =useNavigate()
+  const navigate = useNavigate()
 
-  function handleDetailPage(id){
+  function handleDetailPage(id) {
     navigate(`/detail/${id}`)
   }
 
   function handleAddFavorites(product) {
     let findFavorite = favorites.find(favorite => favorite.id == product.id)
     if (findFavorite) {
-      alert("Məhsul Favorites`də Mövcuddur")
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Məhsul Favorites`də Mövcuddur!",
+        timer:"2000"
+      });
     } else {
+      Swal.fire({
+        title: "Add to Favorites",
+        icon: "success",
+        draggable: true,
+        timer:"1500"
+      });
       setFavorites([...favorites, product])
     }
   }
   function handleAddBasket(product) {
-    let findBasket =basket.find(basketpro=>basketpro.id==product.id)
+    let findBasket = basket.find(basketpro => basketpro.id == product.id)
     if (findBasket) {
       findBasket.count++
       setBasket([...basket])
-    }else{
-      setBasket([...basket,{...product,count:1}])
+    } else {
+      Swal.fire({
+        title: "Add to Basket",
+        icon: "success",
+        draggable: true,
+        timer:"1500"
+      });
+      setBasket([...basket, { ...product, count: 1 }])
+      
     }
   }
 
@@ -236,16 +256,16 @@ function Home() {
               {
                 products.map(product => (
                   <Card key={product.id} style={{ width: '18rem' }}>
-                    <Card.Img onClick={()=>handleDetailPage(product.id)} style={{cursor: "pointer"}} src={product.image} />
+                    <Card.Img onClick={() => handleDetailPage(product.id)} style={{ cursor: "pointer" }} src={product.image} />
                     <Card.Body style={{ textAlign: "center" }}>
-                      <Card.Title style={{ fontSize: "24px", padding: "10px 0px "}}>{product.flower_name}</Card.Title>
+                      <Card.Title style={{ fontSize: "24px", padding: "10px 0px " }}>{product.flower_name}</Card.Title>
                       <Card.Text style={{ fontSize: "20px" }}>
                         {product.price} $
                       </Card.Text>
                       <div className='card-icons'>
                         <IconButton onClick={() => handleAddFavorites(product)}> <FavoriteBorderIcon style={{ color: "red", fontSize: "28px" }} /></IconButton>
                         <IconButton onClick={() => handleAddBasket(product)}> <ShoppingCartIcon style={{ color: "blue", fontSize: "28px" }} /></IconButton>
-                        <Button onClick={()=>handleDetailPage(product.id)} className='prod-btn'>Detail</Button>
+                        <Button onClick={() => handleDetailPage(product.id)} className='prod-btn'>Detail</Button>
                       </div>
                     </Card.Body>
                   </Card>

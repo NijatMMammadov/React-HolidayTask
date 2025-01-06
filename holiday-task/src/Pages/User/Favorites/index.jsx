@@ -6,6 +6,8 @@ import HeartBrokenIcon from '@mui/icons-material/HeartBroken';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { IconButton } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import Swal from "sweetalert2"
+
 
 function Favorites() {
 
@@ -16,8 +18,27 @@ function Favorites() {
   }
 
   function handleDeleteFav(id) {
-    let deleteFavorite = favorites.filter(favorite => favorite.id !== id)
+    Swal.fire({
+      title: "Are you sure?",
+      text: "Remove from Favorites!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!"
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          title: "Deleted!",
+          text: "Your product has been deleted.",
+          icon: "success",
+          timer:"1500"
+        });
+        let deleteFavorite = favorites.filter(favorite => favorite.id !== id)
     setFavorites(deleteFavorite)
+      }
+    });
+    
   }
 
   return (
