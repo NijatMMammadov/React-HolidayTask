@@ -1,0 +1,314 @@
+{
+  "flowers": [
+    {
+      "id": "1",
+      "flower_name": "Raintree Cliff Grass",
+      "color": "Crimson",
+      "soil_type": "Clay",
+      "bloom_season": "Fall",
+      "price": 103.35,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-1.jpg"
+    },
+    {
+      "id": "2",
+      "flower_name": "Bluntlobe Cliff Fern",
+      "color": "Indigo",
+      "soil_type": "Loam",
+      "bloom_season": "Summer",
+      "price": 597.2,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-2.jpg"
+    },
+    {
+      "id": "3",
+      "flower_name": "Threeseeded Sedge",
+      "color": "Green",
+      "soil_type": "Sandy",
+      "bloom_season": "Fall",
+      "price": 334.69,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-3.jpg"
+    },
+    {
+      "id": "4",
+      "flower_name": "False Rhodes Grass",
+      "color": "Teal",
+      "soil_type": "Clay",
+      "bloom_season": "Fall",
+      "price": 925.36,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-4.jpg"
+    },
+    {
+      "id": "5",
+      "flower_name": "Meadow Garlic",
+      "color": "Puce",
+      "soil_type": "Sandy",
+      "bloom_season": "Spring",
+      "price": 233.13,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-5.jpg"
+    },
+    {
+      "id": "6",
+      "flower_name": "Nelson's Tansymustard",
+      "color": "Blue",
+      "soil_type": "Peat",
+      "bloom_season": "Summer",
+      "price": 64.57,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-6.jpg"
+    },
+    {
+      "id": "7",
+      "flower_name": "Hoffmann's Cryptantha",
+      "color": "Red",
+      "soil_type": "Loam",
+      "bloom_season": "Spring",
+      "price": 546.04,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-7.jpg"
+    },
+    {
+      "id": "8",
+      "flower_name": "Needle Spikerush",
+      "color": "Indigo",
+      "soil_type": "Sandy",
+      "bloom_season": "Spring",
+      "price": 213.84,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-8.jpg"
+    },
+    {
+      "id": "9",
+      "flower_name": "Wireweed",
+      "color": "Pink",
+      "soil_type": "Silt",
+      "bloom_season": "Spring",
+      "price": 806.77,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-9.jpg"
+    },
+    {
+      "id": "10",
+      "flower_name": "Celandine",
+      "color": "Turquoise",
+      "soil_type": "Sandy",
+      "bloom_season": "Winter",
+      "price": 880.16,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-10.jpg"
+    },
+    {
+      "id": "11",
+      "flower_name": "Robust Coyote Mint",
+      "color": "Pink",
+      "soil_type": "Silt",
+      "bloom_season": "Fall",
+      "price": 747.26,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-1.jpg"
+    },
+    {
+      "id": "12",
+      "flower_name": "Basswood",
+      "color": "Pink",
+      "soil_type": "Loam",
+      "bloom_season": "Summer",
+      "price": 419.8,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-2.jpg"
+    },
+    {
+      "id": "13",
+      "flower_name": "Fadyen's Silktassel",
+      "color": "Green",
+      "soil_type": "Sandy",
+      "bloom_season": "Spring",
+      "price": 322.58,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-3.jpg"
+    },
+    {
+      "id": "14",
+      "flower_name": "Nevada Gilia",
+      "color": "Teal",
+      "soil_type": "Silt",
+      "bloom_season": "Winter",
+      "price": 785.77,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-4.jpg"
+    },
+    {
+      "id": "15",
+      "flower_name": "Zalil",
+      "color": "Maroon",
+      "soil_type": "Loam",
+      "bloom_season": "Winter",
+      "price": 798.58,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-5.jpg"
+    },
+    {
+      "id": "16",
+      "flower_name": "Lempholemma Lichen",
+      "color": "Pink",
+      "soil_type": "Sandy",
+      "bloom_season": "Fall",
+      "price": 821.39,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-6.jpg"
+    },
+    {
+      "id": "17",
+      "flower_name": "Florida Strangler Fig",
+      "color": "Maroon",
+      "soil_type": "Clay",
+      "bloom_season": "Winter",
+      "price": 270.49,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-7.jpg"
+    },
+    {
+      "id": "18",
+      "flower_name": "Farnoldia Lichen",
+      "color": "Goldenrod",
+      "soil_type": "Loam",
+      "bloom_season": "Spring",
+      "price": 365.38,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-8.jpg"
+    },
+    {
+      "id": "19",
+      "flower_name": "Sicklekeel Lupine",
+      "color": "Orange",
+      "soil_type": "Clay",
+      "bloom_season": "Winter",
+      "price": 38.9,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-9.jpg"
+    },
+    {
+      "id": "20",
+      "flower_name": "Velvetpod Mimosa",
+      "color": "Mauv",
+      "soil_type": "Loam",
+      "bloom_season": "Spring",
+      "price": 325.21,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-10.jpg"
+    },
+    {
+      "id": "21",
+      "flower_name": "Moa Tree",
+      "color": "Turquoise",
+      "soil_type": "Sandy",
+      "bloom_season": "Spring",
+      "price": 495.68,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-1.jpg"
+    },
+    {
+      "id": "22",
+      "flower_name": "Coral Necklace",
+      "color": "Teal",
+      "soil_type": "Sandy",
+      "bloom_season": "Summer",
+      "price": 791.72,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-2.jpg"
+    },
+    {
+      "id": "23",
+      "flower_name": "Wavyleaf Sea Lavender",
+      "color": "Yellow",
+      "soil_type": "Clay",
+      "bloom_season": "Summer",
+      "price": 548.55,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-3.jpg"
+    },
+    {
+      "id": "24",
+      "flower_name": "Natal Plum",
+      "color": "Violet",
+      "soil_type": "Loam",
+      "bloom_season": "Spring",
+      "price": 827.76,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-4.jpg"
+    },
+    {
+      "id": "25",
+      "flower_name": "Oregon Drops Of Gold",
+      "color": "Puce",
+      "soil_type": "Silt",
+      "bloom_season": "Spring",
+      "price": 104.62,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-5.jpg"
+    },
+    {
+      "id": "26",
+      "flower_name": "Suncup",
+      "color": "Purple",
+      "soil_type": "Peat",
+      "bloom_season": "Winter",
+      "price": 911.5,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-6.jpg"
+    },
+    {
+      "id": "27",
+      "flower_name": "Aster",
+      "color": "Fuscia",
+      "soil_type": "Sandy",
+      "bloom_season": "Summer",
+      "price": 597.88,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-7.jpg"
+    },
+    {
+      "id": "28",
+      "flower_name": "Wideleaf Tortula Moss",
+      "color": "Purple",
+      "soil_type": "Loam",
+      "bloom_season": "Spring",
+      "price": 782.56,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-8.jpg"
+    },
+    {
+      "id": "29",
+      "flower_name": "Creosote Bush",
+      "color": "Indigo",
+      "soil_type": "Sandy",
+      "bloom_season": "Fall",
+      "price": 345.52,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-9.jpg"
+    },
+    {
+      "id": "30",
+      "flower_name": "Pseudocrossidium Moss",
+      "color": "Teal",
+      "soil_type": "Loam",
+      "bloom_season": "Fall",
+      "price": 210.32,
+      "sale": false,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-10.jpg"
+    },
+    {
+      "id": "77",
+      "flower_name": "Hamilton's Spindletree",
+      "color": "Puce",
+      "soil_type": "Sandy",
+      "bloom_season": "Fall",
+      "price": 918.67,
+      "sale": true,
+      "image": "https://preview.colorlib.com/theme/florist/img/product/product-7.jpg"
+    }
+  ]
+}
